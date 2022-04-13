@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import Loader from 'react-loaders'
 import { Link } from 'react-router-dom'
 import LogoTitle from '../../assets/images/logo-2.png'
 import AnimatedLetters from '../AnimatedLetters'
@@ -16,6 +17,7 @@ const Home = () => {
     }, 5000);
   })
   return (
+    <>
     <div className="container home-page">
       <div className="text-zone">
         <h1>
@@ -33,6 +35,8 @@ const Home = () => {
       </div>
       <Logo/>
     </div>
+    {/* <Loader type='pacman'/> */}
+    </>
   )
 }
 export default Home
