@@ -18,9 +18,9 @@ const About = () => {
           <h1>
             <AnimatedLetters letterClass={letterClass} strArray={['A', 'b', 'o', 'u', 't', ' ', 'M', 'e']} idx={15} />
           </h1>
-          <p>I'm very ambitious front-end developer looking for a role in established IT company with opportunity to work with the latest technologies on challenging and diverse projects.</p>
-          <p>I'm quietly confident, naturally curious and perpetually working on improving my chops one design problem at a time.</p>
-          <p>If I need define myself in the one sentence that would be a active person, a gud boiz, a sports fanatic, photography enthusiast and tech-obsessed! :3 </p>
+          <p>My name is Đàm Tiến Nam, and my portfolio is a representation of all that I've learned and accomplished as a science and engineering student.</p>
+          <p>I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.</p>
+          <p>If I need to define myself in the one sentence that would be an active person, a gud boiz, a sports fanatic, a photography enthusiast, and tech-obsessed! :3</p>
         </div>
 
         <div className='stage-cube-cont'>
